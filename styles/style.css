@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    list-style: none;
+}
+body{
+    background-image: url(../images/bg.jpg);
+    font-family: Raleway;
+    font-weight: 600;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .box{
+    height: 86vh;
+    width: 85%;
+    padding: 0.20px;
+    background:  rgba(49, 71, 89, 0.5);
+    border-radius: 20px;
+    position: relative;
+    display:flex;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(7px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.25);
+}
+.logo img{
+    height: 100px;
+}
+.container .box nav{
+    height: 7%;
+    width: 95%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    margin-top: 25px;
+    padding: 20px;
+}
+.container .box nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.container .box nav ul li a{
+    color: aqua;
+}
+.tab-content .tab-pane div.container{
+    height: 66vh;
+    width: 150vh;
+    position:relative;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 90px;
+    background-color: black;
+}
+
+.nav-item a::after{
+    background-color: aqua;
+}
